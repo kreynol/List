@@ -12,13 +12,15 @@
 <div class="container">   
   <div id="the-header" class="the-header">
     <h1>Karen's To Do List</h1>
-    <input type="text" id="the-input" placeholder="new tasks....">
-    <span class="create-button">Create Todo</span>
+    <form>
+    <input type="text" id="the-input" value="" placeholder="new tasks....">
+  </form>
+    <span onclick="createNewElement()" class="create-button">Create New To Do</span>
   </div>
 </div> 
 
 <ul id="the-ul">
-    <li>Upload video</li>
+    <!-- <li>Upload video</li>
     <li>Grocery shopping</li>
     <li>Go on a walk</li>
     <li>Get lunch</li>
@@ -33,7 +35,7 @@
     <li>Start a garden</li>
     <li>Go to museum</li>
     <li>Take pictures</li>
-    <li>Paint cabinets</li>
+    <li>Paint cabinets</li> -->
 </ul>
 
 <script src="scripts.js"></script>

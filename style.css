@@ -91,6 +91,12 @@ ul li:hover{
     color: white;
 }
 
+ul li.checked{
+    background: #c31bcc;
+    color: white;
+    text-decoration: line-through;
+}
+
 ul li.checked::before{
     content: '';
     position: absolute;
@@ -112,6 +118,6 @@ ul li.checked::before{
 }
 
 .close:hover{
-    background: #f43c2f;
+    background: #f073f7;
 }
 
