@@ -27,7 +27,7 @@ var textNode = document.createTextNode(theInputValue);
 li.appendChild(textNode);
 
 if(theInputValue === ''){
-    alert("Please fill in your tasks.")
+    alert("Please fill all necessary fields, and click on Create New To Do.")
 }else{
     document.getElementById("the-ul").appendChild(li);
 }
